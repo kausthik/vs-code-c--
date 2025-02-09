@@ -1,0 +1,2 @@
+ mahipal.print();
+//    kaushal.print();
