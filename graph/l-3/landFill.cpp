@@ -18,7 +18,6 @@ void helper(int r , int c , unordered_set<int>& st){
             }
             cout<<endl;
           }
-
           st.insert(r*image[0].size()+c);
           if(st.find((r+1)*image[0].size()+c)==st.end()) helper(r+1,c,st);
           if(st.find((r-1)*image[0].size()+c)==st.end()) helper(r-1,c,st);
